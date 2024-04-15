@@ -20,12 +20,17 @@ This project implements a server using Python's `socketserver` module to count t
 3. **Sending Requests**: Send strings containing one of the specified operations ('W', 'L', 'U', 'R', 'T') followed by a space and the string to be analyzed.
 4. **Receiving Responses**: Receive responses containing the requested count or the original message if the operation is invalid.
 
-## Running the Client
+## Running 
 To run the client script, execute the following command in your terminal or command prompt:
 
 ```bash
 py client.py
 ```
+and execute the following command in another terminal or command prompt:
+```bash
+py server.py
+```
+then enter yout strings( test cases).
 
 ## Implementation Steps
 1. **Import the SocketServer Module**: `import socketserver`
