@@ -30,7 +30,7 @@ and execute the following command in another terminal or command prompt:
 ```bash
 py server.py
 ```
-then enter yout strings( test cases).
+then enter your strings( test cases).
 
 ## Implementation Steps
 1. **Import the SocketServer Module**: `import socketserver`
